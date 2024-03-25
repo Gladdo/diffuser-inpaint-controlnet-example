@@ -13,7 +13,7 @@ pipe = StableDiffusionControlNetInpaintPipeline.from_pretrained(
     ).to("cuda")
 
 output = pipe(
-        prompt="A man weave his hand",
+        prompt="A man waving his hand",
         negative_prompt="",
         num_inference_steps=25,
         strength=0.98,
